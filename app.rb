@@ -2,6 +2,7 @@ require 'json'
 require 'sinatra'
 require 'sinatra/json'
 require 'openssl'
+require 'faraday'
 
 # NOTE: Webhooks must be available via SSL with a certificate signed by a valid
 # certificate authority. The easiest way to deploy and test this code is on
